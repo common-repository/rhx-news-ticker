@@ -1,0 +1,19 @@
+{
+    "name": "xihad0004/rhx-news-ticker",
+    "description": "A News Ticker plugin for Wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Rihan Habib",
+            "email": "xihad0008@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RhxNews\\Ticker\\": "includes/"
+        },
+        "files": []
+    }
+}
